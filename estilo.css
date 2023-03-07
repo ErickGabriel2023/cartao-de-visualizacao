@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+body {
+    font-family: 'Montserrat', arial;
+    font-family: 'Fraunces', serif;
+    background: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+     
+}
+
+.container {
+    background: #fff;
+    text-align: left;
+    padding: 20px;
+    height: 300px;
+    width: 200px;
+    border-radius: 8px;
+    
+    
+}
+
+.container samp {
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: hsl(228, 12%, 48%);
+}
+
+.container h1 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    line-height: 20px;
+
+}
+
+.container p {
+    font-size: 9px;
+    line-height: 15px;
+    color: hsl(228, 12%, 48%);
+}
+
+.container .desconto {
+    font-size: 10px;
+    color: hsl(228, 12%, 48%);
+    padding-left: 13px;
+    
+    text-decoration: line-through;
+}
+
+.container .preco {
+    text-align: right;
+    color: hsl(158, 36%, 37%);
+    font-size: 20px; 
+}
+
+.botao {
+    font-weight: bold;
+    font-size: 10px;
+    color: #fff;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    width: 100%;
+    height: 30px;
+       
+}
+
+.perfume {
+    width: 190px;
+    height: 296px;
+    border-radius: 8px;
+}
+
+.teste .material-symbols-outlined {
+    color: #fff;
+    padding-top: 7px;
+    padding-left: 30px;
+    font-size: 15px;
+    position: absolute;
+    
+}
+ 
+.perfume-m {
+    display: none;
+}
